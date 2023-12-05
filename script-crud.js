@@ -123,6 +123,7 @@ btRemoverConcluidas.addEventListener('click', () => {
     tarefasConcluidas.forEach((e) => e.remove());
     tarefas = tarefas.filter((e) => !e.completa);
     localStorage.setItem('tarefa', JSON.stringify(tarefas));
+    tarefaAtiva = null;
 });
 
 btRemoverTodasTarefas.addEventListener('click', () => {
@@ -131,6 +132,7 @@ btRemoverTodasTarefas.addEventListener('click', () => {
     todasTarefas.forEach((e) => e.remove());
     localStorage.clear();
     tarefas = [];
+    tarefaAtiva = null;
 });
 
 btnDeletarTarefa.addEventListener('click', () => {
