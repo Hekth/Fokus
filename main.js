@@ -92,10 +92,14 @@ function iniciarContagemOuParar () {
 }
 
 function contagemRegressiva() {
-    if (segundos === 0) {
+    if (segundos <= 0) {
         beep.play();
         alert('Acabou o tempo!');
         alterarBtnContagem('play_arrow', 'Começar');
+        if (html.getAttribute('data-contexto') === 'foco') {
+            const evento = new CustomEvent('FocoFinalizado');
+            document.dispatchEvent(evento);
+        }
         pararContagem();
         return;
     }
