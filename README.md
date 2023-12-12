@@ -9,7 +9,7 @@
   Vale ressaltar que os estilos da página não foram feitos por mim, apenas a lógica do projeto.
 </p>
 
-<img src="(https://github.com/Hekth/Fokus/assets/151862970/c940dfa6-6b33-4c51-a7f7-af96511d8c39" width="500px">
+<img src="https://github.com/Hekth/Fokus/assets/151862970/c940dfa6-6b33-4c51-a7f7-af96511d8c39" width="500px">
 
 <h2>
   Principais tecnologias utilizadas
