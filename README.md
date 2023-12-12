@@ -79,7 +79,7 @@
 </p>
 
 <h2>
-  <a src="https://fokus-hekth.vercel.app" target="_blank">LINK</a> para testar o projeto.
+  <a href="https://fokus-hekth.vercel.app" target="_blank">LINK</a> para testar o projeto.
 </h2>
 
 <h2>
